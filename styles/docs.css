@@ -1,0 +1,72 @@
+@import url(/styles/index.css);
+@import url(/styles/avatar.css);
+
+.main-container {
+  margin-top: 7rem;
+  display: flex;
+}
+/* Utility Classses */
+code {
+  color: blue;
+}
+.large-heading {
+  font-size: 5rem;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+.mx-2 {
+  margin: 0 2rem;
+}
+.fs-4 {
+  font-size: 1.8rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.lh-25p {
+  line-height: 25px;
+}
+.m-2 {
+  margin: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+/*  */
+.aside-menu {
+  display: none;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 30%;
+  height: 100vh;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.aside-menu a {
+  line-height: 5rem;
+}
+
+.docs-heading {
+  margin-left: 2rem;
+  margin-top: 8rem;
+}
+
+.sample-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 800px) {
+  .aside-menu {
+    display: flex;
+  }
+}
