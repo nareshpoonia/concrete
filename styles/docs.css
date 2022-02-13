@@ -12,10 +12,10 @@ code {
 .large-heading {
   font-size: 5rem;
 }
-.mgl-2 {
+.ml-2 {
   margin-left: 2rem;
 }
-.mglr-2 {
+.mx-2 {
   margin: 0 2rem;
 }
 .fs-4 {
@@ -27,17 +27,16 @@ code {
 .lh-25p {
   line-height: 25px;
 }
-.mg-2 {
+.m-2 {
   margin: 2rem;
 }
-.mg-t-3 {
+.mt-3 {
   margin-top: 3rem;
 }
 /*  */
 .aside-menu {
   display: none;
   background-color: black;
-  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;

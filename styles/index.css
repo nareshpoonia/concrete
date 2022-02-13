@@ -33,11 +33,7 @@ body {
 
 /* Utility Classses */
 
-.mg-0-2 {
-  margin: 0 2rem;
-}
-
-.mg-t-2 {
+.mt-2 {
   margin-top: 2rem;
 }
 .link-secondary-color {
