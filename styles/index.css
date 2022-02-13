@@ -1,5 +1,6 @@
 @import url(/styles/doc.css);
 @import url(/styles/avatar.css);
+@import url(/styles/alert.css);
 
 /* CSS Reset */
 * {
@@ -9,6 +10,10 @@
 }
 /* Root */
 :root {
+  --alert-color: #ffdb9b;
+  --alert-border-left: #ffa502;
+  --alert-exclamation: #ce8500;
+  --alert-close-btn: #ffd080;
   --primary-color: #000;
   --secondary-color: #fff;
   --background-color: #fff;
