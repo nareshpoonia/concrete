@@ -18,6 +18,10 @@
   --secondary-color: #fff;
   --background-color: #fff;
   --logo-font-family: "Lato", sans-serif;
+  --icon-color: #333333;
+  --icon-background-color: #dddddd;
+  --icon-active: #cccccc;
+  --icon-badge-background-color: #ff0000;
   font-size: 62.5%;
 }
 
