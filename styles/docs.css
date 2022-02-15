@@ -65,6 +65,13 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.sample-container-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 800px) {
   .aside-menu {
     display: flex;

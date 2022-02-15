@@ -1,0 +1,109 @@
+:root {
+  --alert-warning-color: #ffdb9b;
+  --alert-success-color: #00eb81;
+  --alert-succes-secondary-color: #0c5a37;
+  --alert-border-left: #ffa502;
+  --alert-exclamation: #ce8500;
+  --alert-close-btn: #ffd080;
+  --secondary-color: #fff;
+  --background-color: #fff;
+  --logo-font-family: "Lato", sans-serif;
+  font-size: 62.5%;
+}
+
+.alert-warning {
+  background: var(--alert-warning-color);
+  padding: 0.5rem 0.5rem;
+  min-width: 95%;
+  border-radius: 4px;
+  border-left: 8px solid var(--alert-border-left);
+  overflow: hidden;
+}
+
+.alert-warning .fa-exclamation-circle {
+  color: var(--alert-exclamation);
+  font-size: 1rem;
+}
+
+.alert-warning .msg {
+  padding: 0 2rem;
+  font-size: 8px;
+  color: var(--alert-exclamation);
+}
+
+.alert-warning .close-btn {
+  background: var(--alert-close-btn);
+  padding: 10px 10px;
+}
+
+.close-btn-warning .fa-times {
+  color: var(--alert-exclamation);
+  font-size: 1.5rem;
+  line-height: 0rem;
+  padding-top: 1rem;
+}
+
+.alert-success {
+  background: var(--alert-success-color);
+  padding: 0.5rem 0.5rem;
+  min-width: 95%;
+  border-radius: 4px;
+  border-left: 8px solid var(--alert-succes-secondary-color);
+  overflow: hidden;
+}
+
+.alert-success .fa-check {
+  color: var(--alert-succes-secondary-color);
+  font-size: 1rem;
+}
+
+.alert-success .msg {
+  padding: 0 2rem;
+  font-size: 8px;
+  color: var(--alert-succes-secondary-color);
+}
+
+.close-btn .fa-times {
+  color: var(--alert-succes-secondary-color);
+  font-size: 1.5rem;
+  line-height: 0rem;
+  padding-top: 1rem;
+}
+
+@media (min-width: 800px) {
+  .alert-warning {
+    min-width: 55rem;
+    padding: 1.5rem 1.5rem;
+  }
+
+  .alert-success {
+    padding: 1.5rem 1.5rem;
+    min-width: 55rem;
+  }
+  .alert-warning .fa-exclamation-circle {
+    font-size: 3rem;
+  }
+
+  .alert-success .fa-check {
+    font-size: 3rem;
+  }
+
+  .alert-warning .msg {
+    font-size: 1.8rem;
+  }
+
+  .alert-success .msg {
+    font-size: 1.8rem;
+  }
+
+  .close-btn-warning .fa-times {
+    font-size: 2.2rem;
+    padding: 0rem;
+    line-height: 4rem;
+  }
+  .close-btn .fa-times {
+    font-size: 2.2rem;
+    line-height: 4rem;
+    padding: 0rem;
+  }
+} ;
