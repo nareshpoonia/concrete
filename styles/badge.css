@@ -8,7 +8,7 @@
   color: var(--icon-color);
   background: var(--icon-background-color);
   border: none;
-  outline: none;
+  outline: 1px transparent;
   border-radius: 50%;
 }
 
