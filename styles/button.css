@@ -1,0 +1,54 @@
+@import url(/styles/index.css);
+@import url(/styles/utility.css);
+@import url(/styles/docs.css);
+
+.btn-primary {
+  display: inline-block;
+  border: 1px transparent;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5rem;
+}
+
+.button-link {
+  text-decoration: inherit;
+}
+
+.btn-link {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5rem;
+  padding: 6px 12px;
+  background-color: var(--background-color);
+}
+
+.btn-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.btn-icon {
+  color: var(--button-icon);
+  border: 2px solid var(--button-icon);
+}
+.btn-icon:hover {
+  background-color: var(--button-icon);
+  color: var(--background-color);
+}
+.icon-button {
+  color: var(--button-icon);
+  background-color: var(--background-color);
+  border: 2px solid transparent;
+}
+.btn-floating {
+  color: var(--button-floating);
+  border: 2px solid var(--button-floating);
+}
+.btn-floating:hover {
+  background-color: var(--button-floating);
+}
