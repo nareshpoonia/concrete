@@ -89,11 +89,11 @@
   }
 
   .alert-warning .msg {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .alert-success .msg {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .close-btn-warning .fa-times {
