@@ -1,0 +1,10 @@
+@import url(/styles/index.css);
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.round {
+  border-radius: 50%;
+}
