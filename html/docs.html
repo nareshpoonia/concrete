@@ -94,10 +94,10 @@
               <h1 class="large-heading docs-heading">
                   Introduction
               </h1>
-              <p class="mx-2 fs-4 mt-3 lh-25p">
+              <p class="mx-2 fs-ml mt-3 lh-25p">
                 Welcome! Get started with Concrete and build web pages in no time. Concrete provides the pre made components to speed up your process. You just need to add concrete stylesheet to you HTML page and copy-paste the HTML code given and customize your content.
               </p>
-              <p class="mx-2 fs-4 mt-3 lh-25p">
+              <p class="mx-2 fs-ml mt-3 lh-25p">
                 Copy-paste the stylesheet <code>link</code> into your
                   <code>head</code> element before all other stylesheets to load our CSS.
               </p>
@@ -112,7 +112,7 @@
               <h2 class="medium-heading docs-heading" id="avatar">
                   Avatar
               </h2>
-                <p class="mx-2 fs-4 mt-3 lh-25p">
+                <p class="mx-2 fs-ml mt-3 lh-25p">
                 An avatar component can be used for the profile picture of the users
               </p>
                 <div class="sample-container m-2">
@@ -136,7 +136,7 @@
           <h2 class="medium-heading docs-heading" id="alert">
                   Alert
               </h2>
-                <p class="mx-2 fs-4 mt-3 lh-25p">
+                <p class="mx-2 fs-ml mt-3 lh-25p">
                 An alert added before the message of alert to visually convey the message.
               </p>
                 <div class="sample-container-vertical m-2">
@@ -172,7 +172,7 @@
                 <h2 class="medium-heading docs-heading" id="badge">
                   Badge
               </h2>
-                <p class="mx-2 fs-4 mt-3 lh-25p">
+                <p class="mx-2 fs-ml mt-3 lh-25p">
                 Badge can be used to show the status information of the user or some count information such as notification numbers.
               </p>
                 <div class="sample-container m-2">
@@ -200,7 +200,7 @@
                 <h2 class="medium-heading docs-heading" id="button">
                   Button
                 </h2>
-                <p class="mx-2 fs-4 mt-3 lh-25p">
+                <p class="mx-2 fs-ml mt-3 lh-25p">
                   Buttons are call to action.
                 </p>
                 <div class="sample-container-vertical m-2">
@@ -232,8 +232,164 @@
                     </code>
                   </figure>
                 </div>
+                
+                <h2 class="medium-heading docs-heading" id="card">
+                  Card
+                </h2>
+                <p class="mx-2 fs-ml mt-3 lh-25p">
+                  Cards can be used to show brief information about particular thing.
+                </p>
+                
+                <div class="sample-container-vertical m-2">
+                <!-- Cards With Badges -->
+                <figure class="m-2">
+                  <div class="card-container">
+                    <img src="/images/Helmet.jpeg" alt="helmet" />
+                    <div class="card-text-container">
+                      <div class="mb-xs fw-6 fs-m">
+                        Vega Crux Open Face Black Helmet-M
+                      </div>
+                      <div class="card-badge">Sold Out</div>
+                      <div class="mb-xs fw-5 fs-m">VEGA</div>
+                      <div>
+                        <span class="fs-sm fw-5 mb-2">₹ 917</span>
+                      </div>
+                      <div class="card-footer flex-align-center mr-1">
+                        <button class="btn-icon btn-link">
+                          <i class="fas fa-cart-plus"></i> <span>Add to Cart</span>
+                        </button>
+                        <i class="far fa-heart fa-2xl"></i>
+                        <i class="fas fa-share-alt fa-2xl"></i>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+
+                <!-- Cards With Dismiss -->
+                  <figure class="m-2">
+                     <div class="card-container">
+                       <img src="/images/Helmet.jpeg" alt="helmet" />
+                       <div class="card-text-container">
+                         <div class="mb-xs fw-6 fs-m">
+                           Vega Crux Open Face Black Helmet-M
+                          </div>
+                          <div class="badge-close">
+                            <i class="fas fa-times-circle"></i>
+                          </div>
+                          <div class="mb-xs fw-5 fs-m">VEGA</div>
+                          <div>
+                            <span class="fs-sm fw-5 mb-2">₹ 917</span>
+                          </div>
+                          <div class="card-footer flex-align-center mr-1">
+                            <button class="btn-icon btn-link">
+                              <i class="fas fa-cart-plus"></i> <span>Add to Cart</span>
+                            </button>
+                            <i class="far fa-heart fa-2xl"></i>
+                            <i class="fas fa-share-alt fa-2xl"></i>
+                          </div>
+                        </div>
+                      </div>
+                  </figure>
+                  <!-- Cards with Text Overlay -->
+                  <figure class="m-2">
+                    <div class="card-container container-overlay">
+                      <img src="/images/Helmet.jpeg" alt="helmet" />
+                      <div class="card-text-container">
+                        <div class="mb-xs fw-6 fs-m">Vega Crux Open Face Black Helmet-M</div>
+                        <div class="card-overlay flex-center p-1">
+                          <div class="card-content-overlay">Sold Out</div>
+                        </div>
+                        <div class="mb-xs fw-5 fs-m">VEGA</div>
+                        <div>
+                          <span class="fs-sm fw-5 mb-2">₹ 917</span>
+                        </div>
+                        <div class="card-footer flex-align-center mr-1">
+                          <button class="btn-icon btn-link">
+                            <i class="fas fa-cart-plus"></i> <span>Add to Cart</span>
+                          </button>
+                          <i class="far fa-heart fa-2xl"></i>
+                          <i class="fas fa-share-alt fa-2xl"></i>
+                        </div>
+                      </div>
+                    </div>
+                  <!--Text Only Cards  -->
+                  </figure>
+                  <figure class="m-2">
+                    <div class="card-container">
+                      <div class="card-text-container">
+                        <div class="mb-xs fw-6 fs-m">Vega Crux Open Face Black Helmet-M</div>
+                        <div class="product-description fs-sm mb-xs">
+                          <p>
+                            This helmet is made from High Impact ABS Material Shell with texture finish
+                          </p>
+                        </div>
+                        <div class="fw-5 fs-m mb-xs">
+                          VEGA
+                        </div>
+                        <div>
+                          <span class="fs-sm fw-5 mb-2">₹ 917</span>
+                        </div>
+                        <div class="card-footer flex-align-center mr-1">
+                          <button class="btn-icon btn-link">
+                            <i class="fas fa-cart-plus"></i> <span>Add to Cart</span>
+                          </button>
+                          <i class="far fa-heart fa-2xl"></i>
+                          <i class="fas fa-share-alt fa-2xl"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+                  
+                  <!-- Horizontal Cards  -->
+                  <figure class="m-2">
+                    <div class="card-container horizontal">
+                      <img src="/images/Helmet.jpeg" alt="helmet"/>
+                      <div class="card-text-container flex-center-col-al-str">
+                        <div class="mb-xs fw-6 fs-m">Vega Crux Open Face Black Helmet-M</div>
+                        <div class="fw-5 fs-m mb-xs">VEGA</div>
+                        <div>
+                          <span class="fs-sm fw-5 mb-2">₹ 917</span>
+                        </div>
+                        <div class="card-footer mr-1">
+                          <button class="btn-icon btn-link">
+                            <i class="fas fa-cart-plus"></i> <span>Add to Cart</span>
+                          </button>
+                          <i class="far fa-heart fa-2xl mx-1 my-2"></i>
+                          <i class="fas fa-share-alt fa-2xl my-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+
+                  <!-- Cards with shadow  -->
+                  <figure class="m-2">
+                    <div class="card-container horizontal shadow">
+                      <img src="/images/Helmet.jpeg" alt="helmet"/>
+                      <div class="card-text-container flex-center-col-al-str">
+                        <div class="mb-xs fw-6 fs-m">Vega Crux Open Face Black Helmet-M</div>
+                        <div class="fw-5 fs-m mb-xs">VEGA</div>
+                        <div>
+                          <span class="fs-sm fw-5 mb-2">₹ 917</span>
+                        </div>
+                        <div class="card-footer mr-1">
+                          <button class="btn-icon btn-link">
+                            <i class="fas fa-cart-plus"></i> <span>Add to Cart</span>
+                          </button>
+                          <i class="far fa-heart fa-2xl mx-1 my-2"></i>
+                          <i class="fas fa-share-alt fa-2xl my-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </figure>
+                </div>
+                <div>
+                  <figure class=" m-2 code-container">
+                    <code>
+                      <script src="https://gist.github.com/nareshpoonia/1e3ad986cd96a5c45efcb40dc8a3be49.js"></script>
+                    </code>
+                  </figure>
+                </div>         
               </section>
-         
       </main>
   </body>
 

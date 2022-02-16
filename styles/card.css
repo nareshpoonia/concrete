@@ -1,0 +1,72 @@
+@import url(/styles/index.css);
+
+.card-container {
+  max-width: 300px;
+  overflow: hidden;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid var(--primary-color);
+}
+
+.card-badge {
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.card-footer {
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.badge-close {
+  position: absolute;
+  top: 5%;
+  right: 6%;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1.2rem;
+}
+.card-overlay {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  bottom: 0rem;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  padding: 2rem 2rem;
+}
+.card-content-overlay {
+  padding: 0.8rem 0.8rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1.2rem;
+}
+
+.container-overlay:hover .card-overlay {
+  opacity: 0.8;
+}
+.horizontal {
+  flex-direction: row;
+  max-width: 500px;
+  width: 100%;
+}
+.horizontal img {
+  max-width: 100%;
+  width: 15rem;
+}
+
+.shadow {
+  border: 2px transparent solid;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem grey;
+}
