@@ -7,6 +7,12 @@ code {
 .ml-2 {
   margin-left: 2rem;
 }
+.mr-1 {
+  margin-right: 1rem;
+}
+.fs-xs {
+  font-size: 0.875rem;
+}
 
 .fs-s {
   font-size: 1.2rem;
@@ -28,11 +34,12 @@ code {
   font-size: 2rem;
 }
 
-.fs-xl .mr-1 {
-  margin-right: 1rem;
-}
 .mx-1 {
   margin: 0 1rem;
+}
+
+.mx-2 {
+  margin: 0 2rem;
 }
 
 .my-xs {
@@ -51,24 +58,32 @@ code {
   margin: 8px 0;
 }
 
-.mx-2 {
-  margin: 0 2rem;
+.mt-2 {
+  margin-top: 2rem;
 }
-.m-2 {
-  margin: 2rem;
-}
+
 .mt-3 {
   margin-top: 3rem;
 }
 .mb-xs {
   margin-bottom: 0.5rem;
 }
-.mt-2 {
-  margin-top: 2rem;
+
+.mb-s {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
 .mb-2 {
   margin-bottom: 2rem;
 }
+
+.m-2 {
+  margin: 2rem;
+}
+
 .fw-5 {
   font-weight: 500;
 }
@@ -91,6 +106,14 @@ code {
 
 .p-8p {
   padding: 8px;
+}
+
+.text-gray-900 {
+  color: var(--grey-900);
+}
+
+.text-center {
+  text-align: center;
 }
 
 .outline-none {
