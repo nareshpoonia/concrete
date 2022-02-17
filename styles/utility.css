@@ -5,7 +5,6 @@ code {
   font-size: 5rem;
 }
 
-/* Changed */
 .fs-1 {
   font-size: 0.25rem;
 }
@@ -120,6 +119,10 @@ code {
   padding: 1rem;
 }
 
+.px-4 {
+  padding: 0 1rem;
+}
+
 .p-8p {
   padding: 8px;
 }
@@ -149,9 +152,16 @@ code {
   flex-direction: column;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-align-center {
   display: flex;
   align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
 }
 
 .link-secondary-color {

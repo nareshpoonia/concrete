@@ -1,0 +1,35 @@
+@import url(/styles/utility.css);
+@import url(/styles/index.css);
+
+.c-navbar {
+  background-color: var(--primary-color);
+  min-height: 5rem;
+  width: 100%;
+}
+
+.c-navbar a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.c-navbar ul li {
+  display: inline-block;
+}
+
+.navbar-input {
+  width: 50rem;
+}
+
+li a {
+  color: var(--primary-color);
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+}
