@@ -6,6 +6,7 @@
 @import url(/styles/card.css);
 @import url(/styles/image.css);
 @import url(/styles/input.css);
+@import url(/styles/list.css);
 
 .main-container {
   margin-top: 7rem;

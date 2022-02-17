@@ -1,0 +1,18 @@
+@import url(/styles/index.css);
+
+.list-normal {
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+.stacked-list li {
+  display: flex;
+  align-items: center;
+}
+
+.stacked-list img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
