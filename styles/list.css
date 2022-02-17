@@ -6,7 +6,6 @@
 }
 
 .stacked-list li {
-  font-size: 1.6rem;
   display: flex;
   align-items: center;
 }
