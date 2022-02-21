@@ -18,6 +18,10 @@ code {
 }
 
 /* Flex */
+.flex {
+  display: flex;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
@@ -46,6 +50,10 @@ code {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 /* Height */
@@ -131,6 +139,27 @@ code {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
+/* Padding */
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-4 {
+  padding: 0 1rem;
+}
+
+.p-8p {
+  padding: 8px;
+}
+
 .large-heading {
   font-size: 5rem;
 }
@@ -180,22 +209,6 @@ code {
 
 .lh-10 {
   line-height: 2.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.px-4 {
-  padding: 0 1rem;
-}
-
-.p-8p {
-  padding: 8px;
 }
 
 .text-gray-900 {
