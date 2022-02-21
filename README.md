@@ -42,7 +42,7 @@ This Component Library has following components:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/nareshpoonia/concrete)
-- Live Site URL: [Live site URL](concreteui.netlify.app/)
+- Live Site URL: [Live site URL](https://concreteui.netlify.app/)
 
 ## My process
 
