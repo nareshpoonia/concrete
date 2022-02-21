@@ -1,0 +1,47 @@
+@import url(/styles/input.css);
+
+.grid-20-80 {
+  min-height: 20rem;
+  grid-template-columns: 20% 80%;
+  column-gap: 1rem;
+}
+
+.grid-20-80 .first-col {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 20rem;
+  line-height: 20rem;
+}
+
+.grid-20-80 .second-col {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 20rem;
+  line-height: 20rem;
+}
+
+.grid-three-col {
+  min-height: 20rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.grid-three-col .first-col {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 20rem;
+  line-height: 20rem;
+}
+
+.grid-three-col .second-col {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 20rem;
+  line-height: 20rem;
+}
+.grid-three-col .third-col {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 20rem;
+  line-height: 20rem;
+}
