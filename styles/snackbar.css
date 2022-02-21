@@ -1,0 +1,13 @@
+@import url(/styles/index.css);
+
+.snackbar {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: var(--secondary-color);
+  width: 100%;
+}
+
+.btn-link {
+  padding: 3px 6px;
+  font-size: 1.2rem;
+}
