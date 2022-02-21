@@ -42,7 +42,7 @@
 }
 .icon-button {
   color: var(--button-icon);
-  background-color: var(--background-color);
+  background-color: var(--icon-active);
   border: 2px solid transparent;
 }
 .btn-floating {

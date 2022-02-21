@@ -17,11 +17,16 @@ code {
   color: blue;
 }
 
-/* Flex */
+/* Display */
 .flex {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
+/* Flex */
 .flex-center {
   display: flex;
   align-items: center;
@@ -42,6 +47,15 @@ code {
 .flex-align-center {
   display: flex;
   align-items: center;
+}
+
+/* Grid */
+.grid-rows-1 {
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .justify-between {
