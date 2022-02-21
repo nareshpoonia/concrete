@@ -1,0 +1,47 @@
+@import url(/styles/index.css);
+
+.rating-wrapper {
+  cursor: pointer;
+}
+
+.rating-wrapper label {
+  display: inline-block;
+  position: relative;
+  width: 2rem;
+}
+
+.rating-wrapper label:before {
+  content: "\2729";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  width: 50rem;
+  font-size: 20px;
+}
+
+.rating-wrapper {
+  direction: rtl;
+}
+
+.rating-wrapper input {
+  display: none;
+}
+
+.rating-wrapper label:after {
+  content: "\2729";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  width: 15rem;
+  font-size: 2rem;
+  color: var(--ratings-color);
+  opacity: 0;
+}
+
+.rating-wrapper label:hover:after,
+.rating-wrapper label:hover ~ label:after,
+.rating-wrapper input:checked ~ label:after {
+  opacity: 1;
+}
